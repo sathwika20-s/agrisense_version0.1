@@ -107,8 +107,8 @@ app.listen(PORT, () => {
   console.log(`🚀 Server running on port ${PORT}`);
   console.log(`📍 API URL: http://localhost:${PORT}/api`);
 });
-const path = require("path");
-const express = require("express");
+// const path = require("path");
+// const express = require("express");
 
 app.use(express.static(path.join(__dirname, "public")));
 

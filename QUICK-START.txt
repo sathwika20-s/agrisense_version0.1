@@ -1,0 +1,58 @@
+╔══════════════════════════════════════════════════════════════╗
+║         SMART AGRICULTURE STUDIO - QUICK START GUIDE         ║
+╚══════════════════════════════════════════════════════════════╝
+
+📋 PREREQUISITES
+   ✓ Node.js installed
+   ✓ MongoDB running
+   ✓ npm installed
+
+🚀 FASTEST WAY TO START (Windows)
+   
+   Option 1: Double-click → start-all.bat
+   
+   Option 2: Manual commands
+   ┌─────────────────────────────────────────────────────────┐
+   │ Terminal 1 (Backend):                                   │
+   │   cd backend                                             │
+   │   npm install                                            │
+   │   npm start                                              │
+   │                                                          │
+   │ Terminal 2 (Frontend):                                  │
+   │   cd Frontend                                            │
+   │   npm install                                            │
+   │   npm run dev                                            │
+   └─────────────────────────────────────────────────────────┘
+
+🌐 ACCESS POINTS
+   Frontend: http://localhost:5173
+   Backend:  http://localhost:5000/api
+
+✅ VERIFY SETUP
+   Run: node verify-setup.js
+
+📚 DOCUMENTATION
+   README.md          - Full documentation
+   SETUP-GUIDE.md     - Detailed setup steps
+   PROJECT-SUMMARY.md - Complete project overview
+
+🔧 TROUBLESHOOTING
+   Backend not starting?
+   → Check MongoDB is running (mongosh)
+   → Verify backend/.env exists
+   → Check port 5000 is free
+   
+   Frontend can't connect?
+   → Ensure backend is running first
+   → Check http://localhost:5000/api/health
+   → Verify CORS in backend/server.js
+
+💡 QUICK TIPS
+   • Start backend BEFORE frontend
+   • Check connection status in chatbot UI
+   • Use browser DevTools (F12) for debugging
+   • All API endpoints are under /api
+
+═══════════════════════════════════════════════════════════════
+                    Ready to farm smarter! 🌾
+═══════════════════════════════════════════════════════════════

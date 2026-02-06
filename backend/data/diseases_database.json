@@ -1,0 +1,389 @@
+{
+  "diseases": [
+    {
+      "id": 1,
+      "crop": "Tomato",
+      "name": "Early Blight",
+      "pathogen": "Alternaria solani (Fungus)",
+      "severity": "Moderate to High",
+      "symptoms": [
+        "Dark brown spots with concentric rings (target-like) on older lower leaves",
+        "Yellow halo around spots",
+        "Spots enlarge and coalesce",
+        "Premature leaf drop",
+        "Dark lesions on stems and fruits"
+      ],
+      "favorable_conditions": {
+        "temperature": "24-29°C",
+        "humidity": "High (>80%)",
+        "weather": "Warm, humid conditions with heavy dew"
+      },
+      "immediate_action": "Remove and destroy infected leaves immediately to prevent spread",
+      "treatment": {
+        "organic": [
+          "Neem oil spray 5ml per liter water - Apply weekly",
+          "Copper hydroxide spray (1g per liter)",
+          "Baking soda solution (1 tablespoon per liter) with liquid soap",
+          "Trichoderma application to soil"
+        ],
+        "chemical": [
+          "Mancozeb 75% WP @ 2g/L water",
+          "Chlorothalonil 75% WP @ 2g/L",
+          "Azoxystrobin 23% SC @ 1ml/L",
+          "Difenoconazole 25% EC @ 0.5ml/L"
+        ],
+        "cultural": [
+          "Remove infected plant debris",
+          "Improve air circulation by proper spacing",
+          "Avoid overhead irrigation",
+          "Mulch to prevent soil splash",
+          "Stake plants to keep foliage off ground"
+        ]
+      },
+      "prevention": [
+        "Use disease-free certified seeds",
+        "Crop rotation with non-solanaceous crops for 2-3 years",
+        "Apply mulch to prevent soil-borne infection",
+        "Maintain proper plant spacing (75 x 60 cm)",
+        "Water at soil level, avoid wetting foliage",
+        "Apply balanced fertilizer - avoid excess nitrogen"
+      ],
+      "yield_loss": "Up to 50% in severe cases"
+    },
+    {
+      "id": 2,
+      "crop": "Tomato",
+      "name": "Late Blight",
+      "pathogen": "Phytophthora infestans (Oomycete)",
+      "severity": "Very High - Can destroy entire crop",
+      "symptoms": [
+        "Water-soaked, dark green to brown spots on leaves",
+        "White fuzzy growth on underside of leaves (in humid conditions)",
+        "Rapid spread throughout plant",
+        "Dark brown to black lesions on stems",
+        "Firm, brown spots on green fruits"
+      ],
+      "favorable_conditions": {
+        "temperature": "15-20°C",
+        "humidity": "Very high (>90%)",
+        "weather": "Cool, wet, cloudy conditions with extended leaf wetness"
+      },
+      "immediate_action": "URGENT: Spray fungicide immediately. Remove severely infected plants.",
+      "treatment": {
+        "organic": [
+          "Copper-based fungicides (Bordeaux mixture 1% or Copper oxychloride 3g/L)",
+          "Act quickly - organic treatments less effective once established"
+        ],
+        "chemical": [
+          "Metalaxyl + Mancozeb 72% WP @ 2.5g/L - Most effective",
+          "Cymoxanil 8% + Mancozeb 64% WP @ 2g/L",
+          "Dimethomorph 50% WP @ 1g/L",
+          "Propineb 70% WP @ 2g/L",
+          "Apply at 7-10 day intervals in disease-prone periods"
+        ],
+        "cultural": [
+          "Remove infected plants completely",
+          "Burn or bury infected material deep",
+          "Increase spacing between plants",
+          "Apply preventive sprays before disease appears"
+        ]
+      },
+      "prevention": [
+        "Plant resistant varieties",
+        "Start preventive fungicide program before symptoms appear",
+        "Monitor weather - spray before cool, wet periods",
+        "Remove volunteer potato and tomato plants nearby",
+        "Use drip irrigation only",
+        "Destroy crop residue after harvest"
+      ],
+      "yield_loss": "Can destroy 100% of crop within days"
+    },
+    {
+      "id": 3,
+      "crop": "Rice",
+      "name": "Blast",
+      "pathogen": "Pyricularia oryzae (Fungus)",
+      "severity": "High",
+      "symptoms": [
+        "Diamond-shaped spots on leaves with gray centers and brown borders",
+        "Spindle-shaped lesions on leaf blades",
+        "Eye-shaped spots on leaf sheath",
+        "Neck rot causing panicle to break",
+        "Rotting of nodes"
+      ],
+      "favorable_conditions": {
+        "temperature": "25-28°C",
+        "humidity": "High with long dew periods",
+        "weather": "Cloudy, humid weather with intermittent rain"
+      },
+      "immediate_action": "Apply systemic fungicide immediately, drain excess water",
+      "treatment": {
+        "organic": [
+          "Neem kernel powder @ 100 kg/ha",
+          "Pseudomonas fluorescens @ 10g/L as foliar spray"
+        ],
+        "chemical": [
+          "Tricyclazole 75% WP @ 0.6g/L - Very effective",
+          "Carbendazim 50% WP @ 1g/L",
+          "Isoprothiolane 40% EC @ 1.5ml/L",
+          "Kasugamycin 3% SL @ 2ml/L"
+        ],
+        "cultural": [
+          "Drain field temporarily",
+          "Apply potash fertilizer to strengthen plants",
+          "Remove infected plant parts"
+        ]
+      },
+      "prevention": [
+        "Use resistant varieties",
+        "Treat seeds with Tricyclazole before sowing",
+        "Avoid excessive nitrogen fertilizer",
+        "Maintain proper water level (not too deep)",
+        "Remove infected stubbles",
+        "Balanced NPK application"
+      ],
+      "yield_loss": "Up to 70% if neck blast occurs"
+    },
+    {
+      "id": 4,
+      "crop": "Rice",
+      "name": "Brown Spot",
+      "pathogen": "Bipolaris oryzae (Fungus)",
+      "severity": "Moderate",
+      "symptoms": [
+        "Small, circular to oval brown spots on leaves",
+        "Spots have gray center with brown margin",
+        "Numerous spots on leaves causing them to dry",
+        "Symptoms on glumes reduce grain quality"
+      ],
+      "favorable_conditions": {
+        "temperature": "25-30°C",
+        "humidity": "High",
+        "weather": "Prolonged wet periods, nutrient deficiency"
+      },
+      "immediate_action": "Apply balanced fertilizer especially potash, spray fungicide",
+      "treatment": {
+        "organic": [
+          "Neem oil 3% spray",
+          "Trichoderma viride application",
+          "Proper nutrient management"
+        ],
+        "chemical": [
+          "Mancozeb 75% WP @ 2g/L",
+          "Edifenphos 50% EC @ 1ml/L",
+          "Propiconazole 25% EC @ 1ml/L"
+        ],
+        "cultural": [
+          "Apply recommended dose of fertilizers",
+          "Add potash fertilizer @ 60 kg/ha",
+          "Maintain proper water level",
+          "Remove weed hosts"
+        ]
+      },
+      "prevention": [
+        "Use healthy, treated seeds",
+        "Maintain balanced nutrition (especially potassium)",
+        "Avoid water stress",
+        "Proper spacing for air circulation",
+        "Crop rotation"
+      ],
+      "yield_loss": "10-50% depending on severity"
+    },
+    {
+      "id": 5,
+      "crop": "Wheat",
+      "name": "Rust (Leaf, Stem, Stripe)",
+      "pathogen": "Puccinia spp. (Fungus)",
+      "severity": "High",
+      "symptoms": [
+        "Yellow-orange powdery pustules on leaves (Leaf rust)",
+        "Reddish-brown pustules on stem and leaf sheath (Stem rust)",
+        "Yellow stripes on leaves (Stripe rust)",
+        "Pustules rupture releasing orange spores",
+        "Severe infection causes premature leaf death"
+      ],
+      "favorable_conditions": {
+        "temperature": "15-25°C (varies by rust type)",
+        "humidity": "High with dew",
+        "weather": "Cool, moist conditions"
+      },
+      "immediate_action": "Spray fungicide at first sign of rust pustules",
+      "treatment": {
+        "organic": [
+          "Sulfur dust application",
+          "Neem oil 5ml/L water spray",
+          "Limited organic options - act early"
+        ],
+        "chemical": [
+          "Propiconazole 25% EC @ 0.1% (1ml/L) - Very effective",
+          "Tebuconazole 25.9% EC @ 0.5ml/L",
+          "Mancozeb 75% WP @ 2.5g/L",
+          "Apply 2-3 sprays at 10-15 day intervals"
+        ],
+        "cultural": [
+          "Early detection is critical",
+          "Remove alternate weed hosts",
+          "Destroy crop residue"
+        ]
+      },
+      "prevention": [
+        "Plant resistant varieties - most important",
+        "Timely sowing (avoid late sowing)",
+        "Balanced fertilization",
+        "Remove volunteer wheat plants",
+        "Monitor fields regularly during cool, moist weather",
+        "Preventive fungicide spray in disease-prone areas"
+      ],
+      "yield_loss": "Up to 60% in epidemic conditions"
+    },
+    {
+      "id": 6,
+      "crop": "Potato",
+      "name": "Late Blight",
+      "pathogen": "Phytophthora infestans (Oomycete)",
+      "severity": "Very High - Can destroy entire field",
+      "symptoms": [
+        "Water-soaked, dark green spots on leaf tips and margins",
+        "White moldy growth on leaf undersides in humid conditions",
+        "Rapid browning and death of foliage",
+        "Dark brown dry rot on tubers",
+        "Foul smell from infected tubers"
+      ],
+      "favorable_conditions": {
+        "temperature": "10-25°C (optimal 18-22°C)",
+        "humidity": ">90%",
+        "weather": "Cool nights, warm days, high humidity, rainfall"
+      },
+      "immediate_action": "URGENT: Spray metalaxyl immediately. Consider emergency harvest.",
+      "treatment": {
+        "organic": [
+          "Copper oxychloride 50% WP @ 3g/L",
+          "Bordeaux mixture 1%",
+          "Act immediately - limited organic effectiveness"
+        ],
+        "chemical": [
+          "Metalaxyl 8% + Mancozeb 64% WP @ 2.5g/L - Most effective",
+          "Cymoxanil 8% + Mancozeb 64% WP @ 2g/L",
+          "Dimethomorph 50% WP @ 0.5g/L",
+          "Mandipropamid 23.4% SC @ 1ml/L",
+          "Apply every 7-10 days in favorable conditions"
+        ],
+        "cultural": [
+          "Hill up soil around plants",
+          "Destroy infected plants",
+          "Harvest when disease detected, cure tubers",
+          "Avoid irrigating during wet weather"
+        ]
+      },
+      "prevention": [
+        "Plant certified disease-free seed",
+        "Choose resistant varieties",
+        "Deep planting and proper hilling",
+        "Start preventive sprays before symptoms (weather-based)",
+        "Remove cull piles and volunteer plants",
+        "Rotate crops (3-4 years)",
+        "Avoid overhead irrigation",
+        "Kill vines 10-14 days before harvest"
+      ],
+      "yield_loss": "100% field loss possible within 10-14 days"
+    },
+    {
+      "id": 7,
+      "crop": "Cotton",
+      "name": "Bacterial Blight",
+      "pathogen": "Xanthomonas citri pv. malvacearum (Bacteria)",
+      "severity": "Moderate to High",
+      "symptoms": [
+        "Water-soaked angular spots on leaves",
+        "Spots turn black with yellow halo",
+        "Leaf blight and defoliation",
+        "Black arm: long black lesions on stem and branches",
+        "Boll rot with bacterial ooze"
+      ],
+      "favorable_conditions": {
+        "temperature": "25-30°C",
+        "humidity": "High with rainfall",
+        "weather": "Warm, humid with frequent rains and strong winds"
+      },
+      "immediate_action": "Remove infected plants, apply copper spray immediately",
+      "treatment": {
+        "organic": [
+          "Bordeaux mixture 1% spray",
+          "Copper oxychloride 50% WP @ 3g/L"
+        ],
+        "chemical": [
+          "Streptocyclin 100 ppm + Copper oxychloride 0.25%",
+          "Kasugamycin 3% SL @ 2ml/L",
+          "Bactericides have limited effectiveness - focus on prevention"
+        ],
+        "cultural": [
+          "Remove and destroy infected plants",
+          "Avoid working in wet fields",
+          "Improve drainage",
+          "Control insects that spread bacteria"
+        ]
+      },
+      "prevention": [
+        "Use disease-free acid-delinted seeds",
+        "Plant resistant varieties",
+        "Treat seeds with streptocycline before sowing",
+        "Avoid excess nitrogen fertilizer",
+        "Proper spacing for air circulation",
+        "Remove crop residue",
+        "3-year crop rotation",
+        "Control boll weevils and other insects"
+      ],
+      "yield_loss": "Up to 30% in severe outbreaks"
+    },
+    {
+      "id": 8,
+      "crop": "Banana",
+      "name": "Panama Disease (Fusarium Wilt)",
+      "pathogen": "Fusarium oxysporum f.sp. cubense (Fungus)",
+      "severity": "Very High - Soil persists for decades",
+      "symptoms": [
+        "Yellowing of older leaves progressing to younger leaves",
+        "Splitting of leaf sheaths at base",
+        "Wilting and drooping of leaves",
+        "Reddish-brown discoloration of vascular tissue when pseudostem cut",
+        "Plant death before or after fruiting"
+      ],
+      "favorable_conditions": {
+        "temperature": "24-30°C",
+        "soil": "Acidic soils with poor drainage",
+        "weather": "Warm, humid conditions"
+      },
+      "immediate_action": "Remove infected plant completely including rhizome. Quarantine area.",
+      "treatment": {
+        "organic": [
+          "NO CURE available - Management only",
+          "Apply Trichoderma to soil @ 5g/plant",
+          "Use biocontrol agents"
+        ],
+        "chemical": [
+          "NO EFFECTIVE chemical treatment",
+          "Preventive: Carbendazim soil drench for healthy plants",
+          "Focus on prevention and management"
+        ],
+        "cultural": [
+          "Remove entire infected plant and rhizome",
+          "Do not replant in same spot for 5-10 years",
+          "Disinfect tools with bleach",
+          "Improve soil drainage",
+          "Add lime to increase pH"
+        ]
+      },
+      "prevention": [
+        "Plant only disease-free tissue culture plants",
+        "Use resistant varieties (not all available)",
+        "Improve soil drainage",
+        "Maintain soil pH 6.5-7.5",
+        "Avoid movement of soil from infected areas",
+        "Clean equipment between fields",
+        "Crop rotation with non-host crops",
+        "Remove wild banana hosts nearby"
+      ],
+      "yield_loss": "100% for infected plants, can affect entire plantation"
+    }
+  ]
+}

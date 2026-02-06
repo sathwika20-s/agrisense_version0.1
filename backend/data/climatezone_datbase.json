@@ -1,0 +1,398 @@
+{
+  "climate_zones": [
+    {
+      "id": 1,
+      "name": "Tropical Wet",
+      "description": "High rainfall, high temperature, high humidity year-round",
+      "characteristics": {
+        "annual_rainfall": "2000-4000 mm",
+        "temperature_range": "25-35°C",
+        "humidity": "70-90%",
+        "seasons": "Slight variation, mostly warm and wet"
+      },
+      "regions": [
+        "Kerala",
+        "Coastal Karnataka",
+        "Goa",
+        "Western Ghats",
+        "Andaman & Nicobar Islands",
+        "Northeast (Assam, Meghalaya)"
+      ],
+      "suitable_crops": [
+        {
+          "crop": "Rice",
+          "season": "Year-round with multiple crops"
+        },
+        {
+          "crop": "Coconut",
+          "season": "Perennial"
+        },
+        {
+          "crop": "Rubber",
+          "season": "Perennial"
+        },
+        {
+          "crop": "Arecanut",
+          "season": "Perennial"
+        },
+        {
+          "crop": "Banana",
+          "season": "Year-round"
+        },
+        {
+          "crop": "Pepper",
+          "season": "Perennial"
+        },
+        {
+          "crop": "Cashew",
+          "season": "Perennial"
+        },
+        {
+          "crop": "Tapioca",
+          "season": "Year-round"
+        }
+      ],
+      "farming_challenges": [
+        "Excessive rainfall leading to waterlogging",
+        "High pest and disease pressure",
+        "Soil erosion during heavy rains",
+        "Limited crop variety"
+      ],
+      "recommendations": [
+        "Focus on plantation crops",
+        "Good drainage system essential",
+        "Regular pest and disease monitoring",
+        "Organic matter management important"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Tropical Dry",
+      "description": "Moderate to low rainfall, high temperature variation",
+      "characteristics": {
+        "annual_rainfall": "500-1000 mm",
+        "temperature_range": "20-40°C",
+        "humidity": "30-60%",
+        "seasons": "Distinct wet (monsoon) and dry seasons"
+      },
+      "regions": [
+        "Central Maharashtra",
+        "Interior Karnataka",
+        "Rayalaseema (Andhra Pradesh)",
+        "Southern Madhya Pradesh",
+        "Parts of Tamil Nadu"
+      ],
+      "suitable_crops": [
+        {
+          "crop": "Cotton",
+          "season": "Kharif (June-October)"
+        },
+        {
+          "crop": "Sorghum (Jowar)",
+          "season": "Kharif and Rabi"
+        },
+        {
+          "crop": "Pearl Millet (Bajra)",
+          "season": "Kharif"
+        },
+        {
+          "crop": "Groundnut",
+          "season": "Kharif and Summer"
+        },
+        {
+          "crop": "Sunflower",
+          "season": "Kharif and Rabi"
+        },
+        {
+          "crop": "Chickpea",
+          "season": "Rabi (Oct-March)"
+        },
+        {
+          "crop": "Pigeon Pea",
+          "season": "Kharif"
+        }
+      ],
+      "farming_challenges": [
+        "Water scarcity",
+        "Drought conditions",
+        "Soil moisture management",
+        "Limited irrigation facilities"
+      ],
+      "recommendations": [
+        "Drought-resistant crop varieties",
+        "Rainwater harvesting essential",
+        "Drip/sprinkler irrigation recommended",
+        "Mulching to conserve moisture",
+        "Focus on dry land farming techniques"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Semi-Arid/Arid",
+      "description": "Very low rainfall, extreme temperatures, desert conditions",
+      "characteristics": {
+        "annual_rainfall": "100-500 mm",
+        "temperature_range": "15-45°C",
+        "humidity": "20-40%",
+        "seasons": "Hot summers, cool winters, scanty rainfall"
+      },
+      "regions": [
+        "Rajasthan (Thar Desert)",
+        "Western Gujarat",
+        "Parts of Haryana",
+        "Northern Karnataka"
+      ],
+      "suitable_crops": [
+        {
+          "crop": "Pearl Millet (Bajra)",
+          "season": "Kharif with irrigation"
+        },
+        {
+          "crop": "Cluster Bean (Guar)",
+          "season": "Kharif"
+        },
+        {
+          "crop": "Mustard",
+          "season": "Rabi with irrigation"
+        },
+        {
+          "crop": "Gram",
+          "season": "Rabi"
+        },
+        {
+          "crop": "Cumin",
+          "season": "Rabi with irrigation"
+        },
+        {
+          "crop": "Mothbean",
+          "season": "Kharif"
+        },
+        {
+          "crop": "Sesame",
+          "season": "Kharif"
+        }
+      ],
+      "farming_challenges": [
+        "Severe water shortage",
+        "Desertification",
+        "Soil salinity",
+        "Sandstorms",
+        "Poor soil fertility"
+      ],
+      "recommendations": [
+        "Mandatory irrigation - drip system best",
+        "Plant drought and heat tolerant varieties",
+        "Agroforestry with thorny trees",
+        "Sand dune stabilization",
+        "Water conservation critical",
+        "Focus on high-value low-water crops"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Subtropical Humid",
+      "description": "High rainfall during monsoon, hot summers, mild winters",
+      "characteristics": {
+        "annual_rainfall": "1000-2000 mm",
+        "temperature_range": "18-35°C",
+        "humidity": "50-80%",
+        "seasons": "Hot summer, monsoon, cool winter"
+      },
+      "regions": [
+        "Eastern Uttar Pradesh",
+        "Bihar",
+        "West Bengal",
+        "Odisha",
+        "Jharkhand",
+        "Chhattisgarh"
+      ],
+      "suitable_crops": [
+        {
+          "crop": "Rice",
+          "season": "Kharif (main crop)"
+        },
+        {
+          "crop": "Wheat",
+          "season": "Rabi"
+        },
+        {
+          "crop": "Maize",
+          "season": "Kharif and Rabi"
+        },
+        {
+          "crop": "Jute",
+          "season": "Kharif"
+        },
+        {
+          "crop": "Sugarcane",
+          "season": "Year-round"
+        },
+        {
+          "crop": "Pulses",
+          "season": "Rabi"
+        },
+        {
+          "crop": "Vegetables",
+          "season": "Multiple seasons"
+        }
+      ],
+      "farming_challenges": [
+        "Flooding during monsoon",
+        "Waterlogging",
+        "High disease pressure",
+        "Soil acidity in some areas"
+      ],
+      "recommendations": [
+        "Good drainage systems needed",
+        "Multiple cropping possible",
+        "Rice-wheat rotation common",
+        "Disease-resistant varieties important",
+        "Raised bed cultivation in flood-prone areas"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Temperate/Subtropical",
+      "description": "Moderate climate with distinct seasons, suitable for diverse crops",
+      "characteristics": {
+        "annual_rainfall": "600-1200 mm",
+        "temperature_range": "10-30°C",
+        "humidity": "40-70%",
+        "seasons": "Four distinct seasons - summer, monsoon, autumn, winter"
+      },
+      "regions": [
+        "Punjab",
+        "Haryana",
+        "Western Uttar Pradesh",
+        "Northern Madhya Pradesh",
+        "Northern Gujarat"
+      ],
+      "suitable_crops": [
+        {
+          "crop": "Wheat",
+          "season": "Rabi (Nov-April) - main crop"
+        },
+        {
+          "crop": "Rice",
+          "season": "Kharif (June-Oct) with irrigation"
+        },
+        {
+          "crop": "Cotton",
+          "season": "Kharif"
+        },
+        {
+          "crop": "Sugarcane",
+          "season": "Year-round"
+        },
+        {
+          "crop": "Potato",
+          "season": "Rabi"
+        },
+        {
+          "crop": "Mustard",
+          "season": "Rabi"
+        },
+        {
+          "crop": "Barley",
+          "season": "Rabi"
+        }
+      ],
+      "farming_challenges": [
+        "Water management (both excess and shortage)",
+        "Declining groundwater levels",
+        "Soil degradation from intensive farming"
+      ],
+      "recommendations": [
+        "Intensive irrigated agriculture possible",
+        "Crop diversification needed",
+        "Water conservation techniques",
+        "Balanced fertilizer use",
+        "Mechanization suitable",
+        "High productivity potential with proper management"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Mountain/Alpine",
+      "description": "Cold climate, high altitude, short growing season",
+      "characteristics": {
+        "annual_rainfall": "800-2000 mm (varies by region)",
+        "temperature_range": "5-25°C",
+        "humidity": "50-80%",
+        "seasons": "Long cold winters, short summers"
+      },
+      "regions": [
+        "Jammu & Kashmir",
+        "Himachal Pradesh",
+        "Uttarakhand",
+        "Sikkim",
+        "Arunachal Pradesh (high altitude areas)"
+      ],
+      "suitable_crops": [
+        {
+          "crop": "Apple",
+          "season": "Requires cold winters"
+        },
+        {
+          "crop": "Temperate vegetables",
+          "season": "Summer"
+        },
+        {
+          "crop": "Potato",
+          "season": "Summer"
+        },
+        {
+          "crop": "Peas",
+          "season": "Summer"
+        },
+        {
+          "crop": "Stone fruits",
+          "season": "Perennial"
+        },
+        {
+          "crop": "Saffron",
+          "season": "Special climate needed"
+        },
+        {
+          "crop": "Hops",
+          "season": "Summer"
+        }
+      ],
+      "farming_challenges": [
+        "Short growing season",
+        "Limited crop options",
+        "Difficult terrain",
+        "Frost damage",
+        "Limited market access"
+      ],
+      "recommendations": [
+        "Focus on high-value crops",
+        "Temperate fruits and vegetables",
+        "Protected cultivation for vegetables",
+        "Organic farming suitable",
+        "Terrace farming",
+        "Cold storage facilities needed"
+      ]
+    }
+  ],
+  "general_farming_calendar_india": {
+    "kharif_season": {
+      "period": "June to October",
+      "sowing": "June-July (with monsoon)",
+      "harvesting": "September-October",
+      "major_crops": ["Rice", "Maize", "Cotton", "Soybean", "Groundnut", "Jowar", "Bajra", "Tur"]
+    },
+    "rabi_season": {
+      "period": "October to March",
+      "sowing": "October-December (post-monsoon)",
+      "harvesting": "February-April",
+      "major_crops": ["Wheat", "Barley", "Mustard", "Chickpea", "Lentil", "Peas", "Potato"]
+    },
+    "zaid_season": {
+      "period": "March to June",
+      "sowing": "March-April",
+      "harvesting": "May-June",
+      "major_crops": ["Watermelon", "Muskmelon", "Cucumber", "Vegetables", "Fodder crops"]
+    }
+  }
+}

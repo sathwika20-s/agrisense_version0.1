@@ -1,0 +1,414 @@
+{
+  "crops": [
+    {
+      "id": 1,
+      "name": "Rice",
+      "scientific_name": "Oryza sativa",
+      "category": "Cereal",
+      "climate_requirements": {
+        "temperature": {
+          "min": 20,
+          "max": 35,
+          "optimal": 25
+        },
+        "rainfall": {
+          "min": 1000,
+          "max": 2500
+        },
+        "humidity": {
+          "min": 50,
+          "max": 90
+        }
+      },
+      "soil": ["Clay", "Loamy"],
+      "ph_range": "5.5-7.0",
+      "season": "Kharif (June-October)",
+      "duration": "120-150 days",
+      "fertilizer": {
+        "basal": "60:30:30 kg NPK/ha at planting",
+        "top_dressing": "60 kg N/ha at tillering and panicle initiation",
+        "organic": "10 tons FYM/ha"
+      },
+      "irrigation": "Maintain 5-10 cm standing water throughout growth",
+      "spacing": "20 x 15 cm",
+      "seed_rate": "40-50 kg/ha",
+      "yield": "4-6 tons/ha",
+      "market_price": "₹2000-2500 per quintal",
+      "common_varieties": ["IR64", "Swarna", "Basmati"],
+      "benefits": [
+        "High carbohydrate staple food",
+        "Good market demand",
+        "Multiple varieties available"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Wheat",
+      "scientific_name": "Triticum aestivum",
+      "category": "Cereal",
+      "climate_requirements": {
+        "temperature": {
+          "min": 10,
+          "max": 25,
+          "optimal": 20
+        },
+        "rainfall": {
+          "min": 500,
+          "max": 1000
+        },
+        "humidity": {
+          "min": 30,
+          "max": 70
+        }
+      },
+      "soil": ["Loamy", "Clay Loam"],
+      "ph_range": "6.0-7.5",
+      "season": "Rabi (October-March)",
+      "duration": "110-130 days",
+      "fertilizer": {
+        "basal": "60:30:20 kg NPK/ha",
+        "top_dressing": "60 kg N/ha at crown root initiation",
+        "organic": "8-10 tons FYM/ha"
+      },
+      "irrigation": "5-6 irrigations at critical stages",
+      "spacing": "22.5 cm row spacing",
+      "seed_rate": "100 kg/ha",
+      "yield": "4-5 tons/ha",
+      "market_price": "₹2000-2200 per quintal",
+      "common_varieties": ["HD-2967", "PBW-343", "WH-1105"],
+      "benefits": [
+        "Essential cereal crop",
+        "High protein content",
+        "Good storage life"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Maize",
+      "scientific_name": "Zea mays",
+      "category": "Cereal",
+      "climate_requirements": {
+        "temperature": {
+          "min": 18,
+          "max": 32,
+          "optimal": 25
+        },
+        "rainfall": {
+          "min": 600,
+          "max": 1200
+        },
+        "humidity": {
+          "min": 40,
+          "max": 80
+        }
+      },
+      "soil": ["Loamy", "Sandy Loam"],
+      "ph_range": "5.5-7.5",
+      "season": "Kharif & Rabi",
+      "duration": "90-120 days",
+      "fertilizer": {
+        "basal": "60:40:30 kg NPK/ha",
+        "top_dressing": "60 kg N/ha at knee-high stage",
+        "organic": "10 tons FYM/ha"
+      },
+      "irrigation": "Light irrigations at 10-15 day intervals",
+      "spacing": "60 x 20 cm",
+      "seed_rate": "20-25 kg/ha",
+      "yield": "5-7 tons/ha",
+      "market_price": "₹1800-2000 per quintal",
+      "common_varieties": ["DHM-117", "Ganga-5", "Pioneer"],
+      "benefits": [
+        "Versatile crop - food and feed",
+        "Quick growing",
+        "Drought tolerant"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Cotton",
+      "scientific_name": "Gossypium spp.",
+      "category": "Fiber Crop",
+      "climate_requirements": {
+        "temperature": {
+          "min": 21,
+          "max": 35,
+          "optimal": 27
+        },
+        "rainfall": {
+          "min": 500,
+          "max": 1000
+        },
+        "humidity": {
+          "min": 50,
+          "max": 85
+        }
+      },
+      "soil": ["Black Cotton Soil", "Alluvial"],
+      "ph_range": "6.0-8.0",
+      "season": "Kharif (May-June)",
+      "duration": "180-210 days",
+      "fertilizer": {
+        "basal": "50:50:50 kg NPK/ha",
+        "top_dressing": "50 kg N/ha at flowering",
+        "organic": "12-15 tons FYM/ha"
+      },
+      "irrigation": "8-10 irrigations depending on rainfall",
+      "spacing": "90 x 60 cm",
+      "seed_rate": "12-15 kg/ha (Hybrid), 20-25 kg/ha (Normal)",
+      "yield": "20-25 quintals/ha (lint)",
+      "market_price": "₹5500-6000 per quintal",
+      "common_varieties": ["BG-II", "Bt Cotton", "H-8"],
+      "benefits": [
+        "High economic value",
+        "Important fiber crop",
+        "Good market demand"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Sugarcane",
+      "scientific_name": "Saccharum officinarum",
+      "category": "Cash Crop",
+      "climate_requirements": {
+        "temperature": {
+          "min": 20,
+          "max": 35,
+          "optimal": 30
+        },
+        "rainfall": {
+          "min": 1500,
+          "max": 2500
+        },
+        "humidity": {
+          "min": 60,
+          "max": 90
+        }
+      },
+      "soil": ["Loamy", "Clay Loam"],
+      "ph_range": "6.0-7.5",
+      "season": "February-March (Spring), October-November (Autumn)",
+      "duration": "12-18 months",
+      "fertilizer": {
+        "basal": "150:60:60 kg NPK/ha",
+        "top_dressing": "100 kg N/ha in splits",
+        "organic": "25 tons FYM/ha"
+      },
+      "irrigation": "Every 10-15 days in summer, 20-25 days in winter",
+      "spacing": "90 cm row spacing",
+      "seed_rate": "75,000 setts/ha",
+      "yield": "70-90 tons/ha",
+      "market_price": "₹280-320 per quintal",
+      "common_varieties": ["Co-0238", "Co-86032", "CoJ-64"],
+      "benefits": [
+        "High biomass production",
+        "Sugar and jaggery production",
+        "Bagasse for industries"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "category": "Vegetable",
+      "climate_requirements": {
+        "temperature": {
+          "min": 15,
+          "max": 30,
+          "optimal": 23
+        },
+        "rainfall": {
+          "min": 600,
+          "max": 1200
+        },
+        "humidity": {
+          "min": 40,
+          "max": 70
+        }
+      },
+      "soil": ["Sandy Loam", "Loamy"],
+      "ph_range": "6.0-7.0",
+      "season": "Year-round (with irrigation)",
+      "duration": "90-120 days",
+      "fertilizer": {
+        "basal": "100:100:75 kg NPK/ha",
+        "top_dressing": "50 kg N/ha at flowering",
+        "organic": "20-25 tons FYM/ha"
+      },
+      "irrigation": "Drip irrigation - daily in summer, alternate days in winter",
+      "spacing": "75 x 60 cm (staked), 90 x 90 cm (unstaked)",
+      "seed_rate": "300-400 g/ha",
+      "yield": "30-40 tons/ha",
+      "market_price": "₹500-2000 per quintal (seasonal)",
+      "common_varieties": ["Pusa Ruby", "Arka Vikas", "Himsona"],
+      "benefits": [
+        "High nutritional value",
+        "Multiple harvests",
+        "Good market price"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Potato",
+      "scientific_name": "Solanum tuberosum",
+      "category": "Vegetable",
+      "climate_requirements": {
+        "temperature": {
+          "min": 15,
+          "max": 25,
+          "optimal": 20
+        },
+        "rainfall": {
+          "min": 500,
+          "max": 700
+        },
+        "humidity": {
+          "min": 40,
+          "max": 70
+        }
+      },
+      "soil": ["Sandy Loam", "Loamy"],
+      "ph_range": "5.5-6.5",
+      "season": "Rabi (October-November)",
+      "duration": "90-120 days",
+      "fertilizer": {
+        "basal": "120:80:100 kg NPK/ha",
+        "top_dressing": "40 kg N/ha at earthing up",
+        "organic": "20-25 tons FYM/ha"
+      },
+      "irrigation": "Light irrigations at 7-10 day intervals",
+      "spacing": "60 x 20 cm",
+      "seed_rate": "2500-3000 kg/ha",
+      "yield": "25-30 tons/ha",
+      "market_price": "₹500-1500 per quintal",
+      "common_varieties": ["Kufri Jyoti", "Kufri Chandramukhi", "Kufri Pukhraj"],
+      "benefits": [
+        "High yielding",
+        "Staple vegetable",
+        "Good storage life"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Groundnut",
+      "scientific_name": "Arachis hypogaea",
+      "category": "Oilseed",
+      "climate_requirements": {
+        "temperature": {
+          "min": 20,
+          "max": 30,
+          "optimal": 25
+        },
+        "rainfall": {
+          "min": 500,
+          "max": 1250
+        },
+        "humidity": {
+          "min": 50,
+          "max": 80
+        }
+      },
+      "soil": ["Sandy Loam", "Red Soil"],
+      "ph_range": "6.0-6.5",
+      "season": "Kharif & Summer",
+      "duration": "100-140 days",
+      "fertilizer": {
+        "basal": "20:40:60 kg NPK/ha",
+        "organic": "10 tons FYM/ha",
+        "special": "Apply gypsum 400 kg/ha at flowering"
+      },
+      "irrigation": "Critical at flowering and pod formation",
+      "spacing": "30 x 10 cm",
+      "seed_rate": "100-120 kg/ha",
+      "yield": "2-2.5 tons/ha",
+      "market_price": "₹5000-6000 per quintal",
+      "common_varieties": ["TMV-2", "JL-24", "Kadiri-3"],
+      "benefits": [
+        "Nitrogen-fixing crop",
+        "High oil content",
+        "Good cash crop"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Soybean",
+      "scientific_name": "Glycine max",
+      "category": "Oilseed",
+      "climate_requirements": {
+        "temperature": {
+          "min": 20,
+          "max": 32,
+          "optimal": 26
+        },
+        "rainfall": {
+          "min": 500,
+          "max": 900
+        },
+        "humidity": {
+          "min": 50,
+          "max": 80
+        }
+      },
+      "soil": ["Loamy", "Clay Loam"],
+      "ph_range": "6.0-7.5",
+      "season": "Kharif (June-July)",
+      "duration": "90-120 days",
+      "fertilizer": {
+        "basal": "20:60:40 kg NPK/ha",
+        "organic": "10 tons FYM/ha",
+        "special": "Rhizobium culture seed treatment"
+      },
+      "irrigation": "2-3 irrigations if rainfall inadequate",
+      "spacing": "45 x 5 cm",
+      "seed_rate": "75-80 kg/ha",
+      "yield": "2-2.5 tons/ha",
+      "market_price": "₹3500-4000 per quintal",
+      "common_varieties": ["JS-335", "JS-95-60", "MAUS-71"],
+      "benefits": [
+        "Rich in protein",
+        "Nitrogen-fixing",
+        "Multiple uses"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Banana",
+      "scientific_name": "Musa spp.",
+      "category": "Fruit",
+      "climate_requirements": {
+        "temperature": {
+          "min": 15,
+          "max": 35,
+          "optimal": 27
+        },
+        "rainfall": {
+          "min": 1000,
+          "max": 2000
+        },
+        "humidity": {
+          "min": 60,
+          "max": 90
+        }
+      },
+      "soil": ["Loamy", "Clay Loam"],
+      "ph_range": "6.0-7.5",
+      "season": "Year-round planting possible",
+      "duration": "11-15 months",
+      "fertilizer": {
+        "basal": "100:50:200 kg NPK/ha",
+        "monthly": "Split application every month",
+        "organic": "25 kg FYM per plant"
+      },
+      "irrigation": "Drip or basin irrigation - 60-75mm per week",
+      "spacing": "2.0 x 2.0 m",
+      "seed_rate": "1600-2000 suckers/ha",
+      "yield": "40-50 tons/ha",
+      "market_price": "₹1000-2000 per quintal",
+      "common_varieties": ["Grand Naine", "Robusta", "Poovan"],
+      "benefits": [
+        "High income crop",
+        "Year-round production",
+        "High nutritional value"
+      ]
+    }
+  ]
+}

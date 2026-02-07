@@ -275,7 +275,7 @@ export default function Dashboard() {
                 <div className="divider" />
 
                 <div className="mono">
-                  <div>Base URL: http://localhost:5000/api</div>
+                  <div>Base URL: {import.meta.env.VITE_BACKEND_URL}/api</div>
                   <div>
                     Auth: <span className="text-muted">none (local only)</span>
                   </div>

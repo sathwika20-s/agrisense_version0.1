@@ -19,7 +19,7 @@ export default function SmartChat() {
   useEffect(() => {
     async function checkConnection() {
       try {
-        const res = await fetch("http://localhost:5000/api/health");
+        const res = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/health`);
         if (res.ok) {
           setConnectionStatus("connected");
         } else {
@@ -82,7 +82,7 @@ export default function SmartChat() {
         setError(res.message || "Chatbot error - no response received");
       }
     } catch (err) {
-      setError(err.message || "Failed to reach chatbot. Make sure backend is running on http://localhost:5000");
+      setError(err.message || `Failed to reach chatbot. Make sure backend is running on ${import.meta.env.VITE_BACKEND_URL}`);
       const errorEntry = {
         role: "assistant",
         content: "Sorry, I couldn't connect to the backend. Please check if the server is running.",

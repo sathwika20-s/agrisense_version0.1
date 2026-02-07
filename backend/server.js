@@ -7,7 +7,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const multer = require("multer");
 const path = require("path");
-
+const connectDb  = require("./config/db");
 // Import routes
 const climateRoutes = require("./routes/climate");
 const cropRoutes = require("./routes/crops");
@@ -16,25 +16,17 @@ const chatbotRoutes = require("./routes/chatbot");
 
 // Initialize app
 const app = express();
-
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:3000', 'http://localhost:5174'],
+  origin: ['http://localhost:5173', 'http://localhost:3000', 'http://localhost:5174', "*"],
   credentials: true
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+connectDb();
 
 // Static folder for uploads
 app.use("/uploads", express.static("uploads"));
-
-/* =========================
-   MongoDB Connection
-========================= */
-mongoose
-  .connect(process.env.MONGO_URI)
-  .then(() => console.log("✅ MongoDB Connected"))
-  .catch(err => console.error("❌ MongoDB Connection Error:", err));
 
 /* =========================
    Multer Configuration

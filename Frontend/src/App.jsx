@@ -104,7 +104,7 @@ function Sidebar() {
                   <span className="nav-link-label">Backend</span>
                 </span>
                 <span className="nav-link-meta mono">
-                  http://localhost:5000/api
+                  {import.meta.env.VITE_BACKEND_URL}/api
                 </span>
               </div>
               <div className="nav-link">

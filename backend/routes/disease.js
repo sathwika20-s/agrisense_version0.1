@@ -1,55 +1,13 @@
 // backend/routes/disease.js
 const express = require('express');
 const router = express.Router();
-const fs = require('fs');
-const path = require('path');
-const multer = require('multer');
 const diseasesDatabase = require('../data/diseases_database.json');
 
-// Configure multer for image uploads
-const storage = multer.diskStorage({
-  destination: (req, file, cb) => {
-    const uploadDir = 'uploads/diseases/';
-    if (!fs.existsSync(uploadDir)) {
-      fs.mkdirSync(uploadDir, { recursive: true });
-    }
-    cb(null, uploadDir);
-  },
-  filename: (req, file, cb) => {
-    cb(null, Date.now() + '-' + file.originalname);
-  }
-});
-
-const upload = multer({
-  storage: storage,
-  limits: { fileSize: 5 * 1024 * 1024 },
-  fileFilter: (req, file, cb) => {
-    const allowedTypes = /jpeg|jpg|png/;
-    const extname = allowedTypes.test(path.extname(file.originalname).toLowerCase());
-    const mimetype = allowedTypes.test(file.mimetype);
-    
-    if (mimetype && extname) {
-      return cb(null, true);
-    } else {
-      cb(new Error('Only .png, .jpg and .jpeg format allowed!'));
-    }
-  }
-});
-
-// Detect disease from uploaded image
-router.post('/detect', upload.single('image'), async (req, res) => {
+// Detect disease based on crop name
+router.post('/detect', async (req, res) => {
   try {
-    if (!req.file) {
-      return res.status(400).json({
-        success: false,
-        message: 'Please upload an image'
-      });
-    }
-
     const { crop_name } = req.body;
-    const imagePath = req.file.path;
 
-    console.log('Processing image:', imagePath);
     console.log('Crop:', crop_name);
 
     // Use rule-based disease detection
@@ -63,7 +21,6 @@ router.post('/detect', upload.single('image'), async (req, res) => {
 
     const response = {
       success: true,
-      image_url: `/${imagePath}`,
       detection: {
         disease_name: detectionResult.disease_name,
         confidence: detectionResult.confidence,

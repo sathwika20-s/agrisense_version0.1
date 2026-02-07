@@ -3,11 +3,8 @@
 require("dotenv").config();
 
 const express = require("express");
-const mongoose = require("mongoose");
 const cors = require("cors");
-const multer = require("multer");
 const path = require("path");
-const connectDb  = require("./config/db");
 // Import routes
 const climateRoutes = require("./routes/climate");
 const cropRoutes = require("./routes/crops");
@@ -23,38 +20,6 @@ app.use(cors({
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-connectDb();
-
-// Static folder for uploads
-app.use("/uploads", express.static("uploads"));
-
-/* =========================
-   Multer Configuration
-========================= */
-const storage = multer.diskStorage({
-  destination: (req, file, cb) => {
-    cb(null, "uploads/");
-  },
-  filename: (req, file, cb) => {
-    cb(null, Date.now() + path.extname(file.originalname));
-  }
-});
-
-const upload = multer({
-  storage,
-  limits: { fileSize: 5 * 1024 * 1024 },
-  fileFilter: (req, file, cb) => {
-    const allowedTypes = /jpeg|jpg|png/;
-    const extname = allowedTypes.test(path.extname(file.originalname).toLowerCase());
-    const mimetype = allowedTypes.test(file.mimetype);
-
-    if (mimetype && extname) cb(null, true);
-    else cb(new Error("Only .png, .jpg, .jpeg files allowed"));
-  }
-});
-
-// Make upload available to routes
-app.locals.upload = upload;
 
 /* =========================
    Routes

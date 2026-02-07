@@ -15,7 +15,7 @@ const chatbotRoutes = require("./routes/chatbot");
 const app = express();
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:3000', 'http://localhost:5174', "https://agrisense-version0-1-git-main-sathwika20-s-projects.vercel.app"],
+  origin: ['http://localhost:5173', 'http://localhost:3000', 'http://localhost:5174', 'https://agrisense-version0-1.vercel.app', 'https://agrisense-version0-1-git-main-sathwika20-s-projects.vercel.app'],
   credentials: true
 }));
 app.use(express.json());

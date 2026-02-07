@@ -72,6 +72,7 @@ app.use("/api/crops", cropRoutes);
 app.use("/api/disease", diseaseRoutes);
 app.use("/api/chatbot", chatbotRoutes);
 
+
 // Health check
 app.get("/api/health", (req, res) => {
   res.json({
@@ -99,6 +100,11 @@ app.use((req, res) => {
   });
 });
 
+
+//git path
+// const path = require("path");
+// const express = require("express");
+
 /* =========================
    Start Server
 ========================= */
@@ -106,14 +112,6 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`🚀 Server running on port ${PORT}`);
   console.log(`📍 API URL: http://localhost:${PORT}/api`);
-});
-// const path = require("path");
-// const express = require("express");
-
-app.use(express.static(path.join(__dirname, "public")));
-
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
 
